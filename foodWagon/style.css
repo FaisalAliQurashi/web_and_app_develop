@@ -1,0 +1,377 @@
+.active>h6>img {
+    width: 15px;
+}
+
+form>svg {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #FFAE004A;
+}
+
+form>.btn {
+    width: 150px;
+    color: #FF8A00;
+    box-shadow: 2px 2px 4px #FF8A00;
+}
+
+form>.btn>svg {
+    margin-right: 10px;
+
+}
+
+.hero {
+    max-width: none;
+    width: none;
+}
+
+.hero>.back {
+    width: 1920px;
+    height: 661px;
+}
+
+.hero>.col>.nav2 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+    width: 40%;
+}
+
+.nav2>.container-fluid>.input-group {
+    display: block;
+    background-color: white;
+    width: 100%;
+    padding: 5;
+    border-radius: 5px;
+
+
+}
+
+.nav2>.container-fluid>.input-group>span>input {
+    width: 70%;
+    border-radius: 5px !important;
+    padding: 0px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 17px !important;
+    margin-bottom: 10px;
+
+}
+
+.nav2>.container-fluid>.input-group>span.input-group-text {
+    border: none;
+    background: white;
+    border-radius: 5px !important;
+    padding-bottom: 0px;
+}
+
+.nav2>.container-fluid>.input-group>span {
+    display: flex;
+}
+
+.nav2>.container-fluid>.input-group>span>img {
+    width: 15px;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 30px !important;
+}
+
+.nav2>.container-fluid>.input-group>span>.rearch {
+    color: white;
+    background-color: #FF8A00;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    width: 25%;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.nav2>.container-fluid>.input-group>span>.one {
+    background-color: #F172281A;
+}
+
+.nav2>.container-fluid>.input-group>span>.btn {
+    margin-left: 3px;
+}
+
+.hero>.col>.hero2 {
+    width: 30%;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+.offer {
+    text-align: center;
+    margin-top: 30px !important;
+}
+
+.offer>.col>a>img {
+    /* width: 15%; */
+    border-radius: 10px;
+}
+
+.offer>.col {
+    margin-top: 20px;
+}
+
+.offer>.col>a {
+    text-decoration: none;
+    color: black;
+}
+
+.offer>.col>a>button {
+    background-color: rgb(252 227 212);
+    color: rgb(241 114 40);
+}
+
+.work {
+    text-align: center;
+    display: flex;
+    background-color: #FFCE6738;
+    margin-top: 50px !important;
+    padding-top: 30px;
+    color: #FF8A00;
+}
+.work>.col{
+    margin-top: 30px !important;
+}
+.work>.col>a{
+    text-decoration: none;
+    color: #9E9E9E;
+}
+.work>.col>a>img {
+    width: 80px !important;
+}
+.items{
+    text-align: center;
+    margin-top: 40px !important;
+}
+.items>.col{
+    margin-top: 20px !important;
+}
+.items>.col>a{
+    text-decoration: none;
+    color: black;
+}
+.items>.col>a>img{
+    border-radius: 10px;
+}
+.items>.col>a>p{
+    color: #FF8A00;
+}
+.items>.col>a>.btn{
+    background-color: #FF8A00;
+    color: white;
+}
+.items>.col>a>p>.icon{
+    width: 13px;
+}
+.feature{
+    margin-top: 30px !important;
+}
+.items>.h{
+    display: contents;
+    text-align: center;
+    margin: 30px;
+}
+.work>.h{
+    display: contents;
+    text-align: center;
+    margin: 30px;
+}
+.feature>.h{
+    display: contents;
+    text-align: center;
+    margin: 30px;
+}
+.feature>.col{
+    margin-top: 20px;
+}
+.feature>.b{
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+}
+.feature>.b>img{
+    width: 250px;
+}
+.search{
+    text-align: center;
+    background: #FEFAF1;
+    padding: 100px;
+}
+@media only screen and (max-width: 488px) {
+    .search {
+      padding: 15%;
+    }
+  }
+.search>.col{
+    margin-top: 20px !important;
+}
+.search>.col>a{
+    text-decoration: none;
+    color: black;
+}
+.search>.col>a>img{
+    border-radius: 303px;
+}
+.Install{
+background-color:#FEEFD0;
+justify-content: center;
+text-align: center;
+}
+.Install>.row{
+    padding: 30px !important;
+    margin: 20px;
+    background-color:#FEEFD0 ;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+.Install>.row>.col{
+    margin-left:2px;
+    margin-top: 10px;
+    border-radius: 40px;
+    background-color:white;
+}
+
+@media only screen and (max-width: 380px){
+    .Install>.col.second{
+        margin-top: 500px;
+    }
+    .Install>img{
+        margin-top: 200px;
+    }
+    .Install>.time{
+        display: block;
+    }
+    @media only screen and (max-width: 300px){
+        .Install>.col.second{
+            margin-top: 360px;
+        }
+    }
+    
+    
+
+}
+.Install>.col{
+    position: absolute;
+margin-top: 80px;
+}
+.Install>.col>img{
+    position: absolute;
+    width: 40%;
+    margin-left: 15%;
+}
+.Install>.col>h1{
+    margin-top: 15%;
+    color:#FF8A00;
+    
+}
+.Install>.col>.row{
+    width: fit-content;
+    display: inline-flex;
+}
+.Install>.col>.row>.col>img{
+    width: 200px;
+}
+.three{
+    margin-top: 30px !important;
+    justify-content: center;
+}
+.three>.card{
+    max-width: none;
+    width: 80% !important;
+}
+.col-md-4>img{
+    margin-top: 12px;
+}
+.card-body>h5>span{
+    color: #FF8A00;
+}
+.card-body>a>img{
+    width: 200px;
+}
+.card.mb-3.mid{
+    direction: rtl;
+}
+.card.mb-3{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+.foot{
+    margin-top: 40px;
+    text-align: center;
+    background-color: #FF8A00;
+}
+.foot>h1{
+    position: absolute;
+    margin-top: 40px;
+    color: white;
+    
+}
+.foot>h1>a>img{
+    width: 200px;
+
+}
+@media only screen and (max-width: 550px){
+    .foot>h1{
+        color: red;
+    }
+    .foot>img{
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 1000px){
+    .hero>.col>.nav2{
+        margin: 0px;
+        width: auto;
+        margin-top: 30px;
+    }
+    .hero>.col{
+        display: contents;
+    }
+    .hero{
+        justify-content: center;
+        text-align: center;
+    }
+    .hero>.col>.hero2{
+        margin-left: 0px;
+    
+    }
+    @media only screen and (max-width: 560px){
+        .hero>.col>.hero2{
+            width: 75%;
+        }
+        .hero>.col>.nav2{
+            justify-content: center;
+        }
+    }
+    @media only screen and (max-width: 420px){
+        .hero>.col>.nav2>.container-fluid>.input-group>span{
+            display: grid;
+        }
+        .nav1>.container-fluid{
+            justify-content: center !important;
+
+        }
+        .nav1>.container-fluid>.navbar-toggler{
+            width:inherit;
+        }
+        .hero>.col>.nav2>.container-fluid>.input-group>span>input{
+            width: auto;
+            margin-right: 5px;
+        }
+        .hero>.col>.nav2>.container-fluid>.input-group>span>.btn{
+            width: auto;
+            margin: 12px;
+        }
+        .hero>.col>.hero2{
+            margin-top: 0%;
+            margin-top: 400px;
+        }
+    }
+}

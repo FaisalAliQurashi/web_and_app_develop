@@ -1,0 +1,72 @@
+.navbar{
+
+    background-color: mistyrose;
+    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.them-menue{
+    text-transform: uppercase;
+    font-size: 18;
+    font-weight: bold;
+    margin-left: 30px;
+
+}
+.them-menue a.active{
+    color: #99ca3c !important;
+}
+.them-menue a{
+    color: black;
+}
+.them-search > input{
+    width: 300px;
+    border-radius: 20px;
+    border:2px solid #99ca3c;
+}
+.them-search > button{
+    border-radius: 20px;
+    background-color: #99ca3c;
+    color: white;
+padding:0px 40px;
+font-weight: bold;
+text-transform: uppercase;
+}
+.them-search>button{
+    background-color: #99ca3c;
+    color: white;
+}
+@media only screen and (max-width:992px) {
+    .them-menue{
+        text-align: center;
+    }
+    .them-search{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .them-search>input{
+        width: 300px;
+
+    }
+    .them-search>button{
+        margin-top: 10px;
+        padding: 7px;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width:332px){
+    .them-search>input{
+        width: 100%;
+    }
+    .them-search>button{
+        width: 100%;
+    }
+}
+.container{
+    margin-top: 20px;
+}
+.card{
+    /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}

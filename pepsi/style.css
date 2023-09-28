@@ -1,0 +1,124 @@
+body{
+    background-color: black !important;
+}
+.navbar{
+    background-color: #0025ff;
+margin-bottom:0px !important;
+padding-bottom: 0px !important;
+}
+.navbar-brand>img{
+    width: 80px;
+}
+.container-fluid>.collapse>.row>.btn{
+    display: contents;
+}
+.container-fluid>.collapse>.row{
+    width: 100%;
+}
+
+.container-fluid>.nav-item{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    display: none;
+}
+
+@media only screen and (max-width: 995px) {
+    .container-fluid>.nav-item{
+        display:flex;
+    }
+    @media only screen and (max-width: 370px) {
+        .container-fluid>.nav-item{
+            display:none;
+        }
+      }
+  }
+ 
+.container-fluid>.collapse>.row>.col>.navbar-nav>.nav-item>.nav-link{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+}
+.container-fluid>.collapse>.row>.col>.navbar-nav>.nav-item>.btn{
+color: white;
+border: 2px solid white;
+border-radius: 20px;
+}
+
+video{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 100% !important;
+    height: auto;
+}
+.CELEBRATING{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+}
+.CELEBRATING>h1{
+    padding-top: 30px;
+    font-size: 61px;
+    line-height: 59px;
+}
+.CELEBRATING>h2{
+    
+    font-size: 35px;
+    line-height: 36px;
+    margin-top: 20px;
+    font-family: "PepsiOwners-Extended";
+}
+.CELEBRATING>.btn{
+background-color: #0025ff;
+color: white;
+font-family: "PepsiOwners-Regular";
+font-size: 23px;
+width: 250px;
+height: 50px;
+border-radius: none !important;
+}
+.CELEBRATING>.img-fluid{
+    padding-top: 30px;
+}
+.CELEBRATING>.heading{
+    color: #0025ff;
+}
+.container{
+    text-align: center;
+    border: 3px solid #0025ff;
+    display: flex;
+    width: 95% !important;
+}
+@media only screen and (max-width: 1024px) {
+    .container{
+        display: list-item;
+        text-align: center;
+    }
+    
+}
+.container>a{
+    width: 100%;
+}
+.container>a>image{
+    width: 100%;
+}
+.Contact{
+    margin-top: 50px;
+    background-color: #0025ff;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.Contact>.row>.col>a>svg{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+.row>.navbar-brand>img{
+    margin-left: 30px;
+}

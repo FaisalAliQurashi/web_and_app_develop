@@ -1,0 +1,290 @@
+.nav-link {
+    color: #fff !important;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.navbar {
+    background-color: black;
+    height: 100px;
+}
+
+.collapse {
+    flex: none !important;
+}
+
+.image {
+    height: 80px;
+
+}
+
+.btn {
+    border-color: #fff !important;
+    height: 50px;
+    width: 120px;
+    margin-left: 8px;
+    border-radius: 50px !important;
+    color: #fff !important;
+    font-size: revert !important;
+
+}
+
+.production {
+    text-align: center;
+    width: 100%;
+    padding: 0px 15px 0px 15px;
+    padding-top: 70px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 70px;
+    background-color: black;
+    color: #fff;
+}
+.production>.card-group>.card>.card-img-top{
+    background-color: #fff;
+    width: 250px !important;
+    height: 140px;
+    margin: 20px;
+    padding: 20px;
+}
+.production>.card-group>.card>.card-body{
+    margin-right: 1px;
+     text-align: center;
+}
+.production>.card-group>.card>.card-body>.btn{
+    border-width: 1px;
+    width: 174px;
+
+}
+.production>.card-group>.card{
+    margin-bottom: 40px;
+
+align-items: center;
+padding: 20px;
+background-color: black;
+color: #fff;
+/* width: 240px !important; */
+width: 240px;
+height: 214px;
+}
+span.logo-text-hold {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+
+}
+.h1{
+    font-family: 'Apercu' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.main_heading{
+    align-items: center;
+}
+
+.Franchise{
+    text-align: center;
+    background-color: #0f0f0f;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.Franchise>.row>.col{
+    margin-bottom: 20px !important;
+}
+.row{
+    width: fit-content;
+    color: #fff !important;
+    text-align: center;
+    align-items: center;
+    direction: revert;
+    width: 100%;
+    text-align: center !important;
+    align-items: baseline;
+    margin-bottom: 5px;
+}
+.btn-holds{
+    border-color: #fff !important;
+    height: 50px;
+    width: 120px;
+    margin-left: 8px;
+    border-radius: 50px !important;
+    color: #fff !important;
+    font-size: 15px !important;
+    padding: 11px !important;
+    border-width: 1px;
+    width: 174px;
+
+}
+.second{
+    direction: rtl;
+}
+.Franchise>.row>.col-lg-6{
+    margin: auto;
+}
+.Express{
+    background-color: black;
+    /* text-align: center !important; */
+    justify-items: center;
+    justify-content: center;
+    text-align: -webkit-center;
+    padding-top: 50px;
+padding-bottom: 40px;
+}
+.Express>.card-Express>.row{
+    text-align: center !important;
+    justify-content: center;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.hading{
+    color: #fff;
+}
+.Express>.card-Express>.row>.col>.card{
+    background-color: black;
+    color: #fff;
+    width: 330px;
+    
+}
+.Express>.card-Express>.row>.col{
+text-align: center !important;
+justify-content: center !important;
+}
+.Village{
+    background-color: #0f0f0f;
+    color: #fff;
+    text-align: center;
+}
+.Village>.container{
+    text-align: center;
+}
+.Village>.row{
+    align-items: center;
+    direction: rtl;
+    display: flex;
+    margin-bottom: 0px; 
+    padding-bottom: 20px;
+}
+
+.opening_Soon{
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    padding-top: 40px;
+}
+.opening_Soon>.hading{
+    margin-top: 20px;
+}
+.opening_Soon>.card-opening_Soon>.row{
+    justify-content: center;
+    margin-bottom: 0%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 2px;
+}
+.opening_Soon>.card-opening_Soon>.row>.col>.card>.image{
+    width: 56px !important;
+    height: 56px !important;
+}
+.opening_Soon>.card-opening_Soon>.row>.col>.card{
+align-items: center !important;
+padding: 20px;
+width: 400px;
+height: 330px;
+}
+.Social-Feed{
+    padding-top: 30px;
+   text-align: center;
+   background-color: black;
+   color: white;
+
+}
+.Social-Feed>h1{
+    margin: 0px !important;
+}
+.Social-Feed>.foodPic{
+    padding-top: 40px;
+    display:flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.Social-Feed>.foodPic>.rounded{
+    width: 230px;  
+    margin: 10px; 
+    position: relative; 
+}
+.footer{
+    padding-top: 30px;
+    background-color: #0f0f0f;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer>.row>.col>.About{
+    width: 100%;
+text-align: left;
+margin-left: 20px;
+color: rgba(255, 255, 255, 0.7);
+}
+.footer>.row>.col>h3{
+    margin-bottom: 0px !important;
+    font-family: 'Butler';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.footer>.row>.col>ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px !important;
+    margin: 0px !important
+}
+.footer>.row>.col>ul>il{
+    list-style: none;
+    display: flex;
+margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0px 5px;
+    padding-bottom: 16px;
+    justify-content: center;
+    text-decoration: none;
+
+}
+.footer>.row>.col>ul>il>a{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7) !important;
+    text-decoration: none;
+    display: flex;
+}
+.footer>.row>.col>.row{
+    vertical-align: middle;
+    margin-top: 30px;
+    /* text-align: center; */
+    justify-content: center;
+}
+.footer>.row>.col>.row>img{
+    width: 150px;
+}
+.copyright{
+    background-color: #0f0f0f;
+    color: #fff;
+    margin: 0px;
+    display: flex;
+}

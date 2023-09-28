@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <title>The Capital Grill</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        
+        header {
+            background-color: #97adfb;
+
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        label {
+            font-weight: bold;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        textarea {
+            height: 150px;
+        }
+        
+        input[type="submit"] {
+            background-color: #97adfb;
+
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #97adfb;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="./assets/logo2.jpg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="Toggle navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Manu&Price.html">Menu & Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Rest_OpeningHours.html">Restaurant Opening Hours</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About_us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="Contact_us.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+          </div>
+        </div>
+      </nav>
+    <div class="contactpage">
+        <h1>Contact us</h1>
+        <p>
+            If you're interested in delicious food made with locally sourced ingredients, all from a professional local
+            chef with over 20 years' of experience in the industry, then call The Box by Ben Gobbi today. We look
+            forward to satisfying your taste-buds with our delicious, freshly prepared lunches and evening meals.
+            <br><br>
+            If you’d like to place an order with us or even if you have any queries please give us a call or drop us a
+            message. We look forward to hearing from you.
+        </p>
+    </div>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <div class="container">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter Your Name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter Your Email Address">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required placeholder="Write Your "></textarea>
+            
+            <input type="submit" onclick="sendMail()" value="Submit">
+        </form>
+    </div>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2238.4843532151945!2d-4.398838500000001!3d55.8716124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48884f2708dd14b7%3A0x2c0dca4765c0fced!2s14-16%20Porterfield%20Rd%2C%20Renfrew%20PA4%208HJ%2C%20UK!5e0!3m2!1sen!2s!4v1693898734779!5m2!1sen!2s"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="fastxt"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="row contact">
+        <div class="row contact_us">
+            <h3>Contact Details</h3>
+            <h3>Owner: Mr. Adrian Venoin</h3>
+            <a href="tel:+01416111383">Call US: 01416111383</a>
+            <a href="mailto:clearbusinessbyadrian@gmail.com">Email US: clearbusinessbyadrian@gmail.com</a>
+            <h3>Address</h3>
+            <a href="14-16 Porterfield Road, Renfrew, Renfrewshire, PA4 8HJ">14-16 Porterfield Road, Renfrew,
+                Renfrewshire, PA4 8HJ</a>
+
+        </div>
+        <div class="FOLLOW">
+            <h4>FOLLOW US</h4>
+            <div class="row">
+                <ul>
+                    <li>
+                        <a href="#"><img src="./assets/iconFacebook_noinline.773db88c5b9ee5aaab365e61cdb750da.svg"
+                                alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./assets/iconInstagram_noinline.d7d5811ebc44e03a674c8d0b5ff3f232.svg"
+                                alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./assets/iconTwitter_noinline.6037fa7d9a7b9d6408fb1b3d70524b97.svg"
+                                alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./assets/iconYoutube_noinline.c85bd6801ec83d6a3b498059550bef26.svg"
+                                alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Classifieds in UK . © 2018-2023</p>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
