@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    text-align: -webkit-center;
+}
+body>.row{
+    width: fit-content;
+    padding-top: 21px;
+    background-color: blue;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+button:active {
+    color: white;
+    background-color:aqua;
+}
+button{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: larger;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: rgba(118, 242, 157, 0.19) 0px 10px 20px, rgba(125, 217, 141, 0.23) 0px 6px 6px;
+}
+#display{
+    width: 250px;
+    height: 40px;
+    text-align: end;
+    font-size: larger;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-bottom: 10px;
+    
+}

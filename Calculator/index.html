@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="row">
+    
+    <div>
+        <div class="row display">
+            <input type="tel" id="display">
+        </div>
+        <div class="row">
+            <button id="button" onclick="deleteAll()">AC</button>
+            <button id="button" onclick="deleteLastValue()">DEL</button>
+            <button id="button" onclick="press('%')">%</button>
+            <button id="button" onclick="press('/')">/</button>
+        </div>
+        <div class="row">
+            <button id="button" onclick="press('9')">9</button>
+            <button id="button" onclick="press('8')">8</button>
+            <button id="button" onclick="press('7')">7</button>
+            <button id="button" onclick="press('-')">-</button>
+        </div>
+        <div class="row">
+            <button id="button" onclick="press('6')">6</button>
+            <button id="button" onclick="press('5')">5</button>
+            <button id="button" onclick="press('4')">4</button>
+            <button id="button" onclick="press('*')">*</button>
+        </div>
+        <div class="row">
+            <button id="button" onclick="press('3')">3</button>
+            <button id="button" onclick="press('2')">2</button>
+            <button id="button" onclick="press('1')">1</button>
+            <button id="button" onclick="press('+')">+</button>
+        </div>
+        <div class="row">
+            <button id="button" onclick="press('00')">00</button>
+            <button id="button" onclick="press('0')">0</button>
+            <button id="button" onclick="press('.')">.</button>
+            <button id="button" onclick="finalresult()">=</button>
+        </div>
+    </div>
+</div>
+    <script src="app.js"></script>
+</body>
+
+</html>
