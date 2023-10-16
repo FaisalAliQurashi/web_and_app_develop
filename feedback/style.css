@@ -1,0 +1,54 @@
+body {
+    text-align: center !important;
+}
+
+.navbar {
+    background-color: teal;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.container.nav {
+    justify-content: center !important;
+}
+
+.container.nav>a {
+    color: aliceblue;
+}
+
+.prepost {
+
+    margin-top: 50px;
+    padding: 30px;
+    border: 2px solid #008080;
+    text-align: center;
+    width: 800px;
+    display: inline-table;
+}
+
+.btn {
+    background-color: #008080;
+    width: 90%;
+    color: aliceblue;
+}
+
+.btn:hover {
+    background-color: #008080;
+}
+.swal2-actions{
+    width: 90%;
+}
+.swal2-confirm{
+    width: 90%;
+    background-color: #008080 !important;
+}
+
+@media only screen and (max-width:840px) {
+    .prepost {
+
+        width: 95%;
+        margin-top: 50px;
+        padding: 30px;
+
+    }
+
+}
