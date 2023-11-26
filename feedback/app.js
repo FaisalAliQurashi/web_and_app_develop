@@ -15,8 +15,9 @@ function post() {
     }else{
         var posts = document.getElementById("post");
         posts.innerHTML += `
+        
             <div class="card" id="card" style="margin-top: 15px;">
-                <h5 class="card-header" style="color: #7bd6f3;">FeedBack</h5>
+                <h5 class="card-header" style="color: #008080;">FeedBack</h5>
                 <div class="card-body" style="color:${colar.value};">
                     <h5 class="card-title" id="title">${name.value}</h5>
                     <p class="card-text"  id="text">${message.value}</p>
