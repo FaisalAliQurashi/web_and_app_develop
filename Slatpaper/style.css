@@ -6,11 +6,17 @@
 
 .navbar {
     background-color: black;
-    height: 100px;
 }
 
-.collapse {
-    flex: none !important;
+.navbar>.container-fluid>button {
+    background-color: white;
+}
+.navbar>.container-fluid>.navbar-collapse{
+    justify-content: center;
+    position: sticky;
+}
+.navbar>.container-fluid>.navbar-collapse>ul {
+    display: contents !important;
 }
 
 .image {
@@ -40,33 +46,37 @@
     background-color: black;
     color: #fff;
 }
-.production>.card-group>.card>.card-img-top{
+
+.production>.card-group>.card>.card-img-top {
     background-color: #fff;
     width: 250px !important;
     height: 140px;
     margin: 20px;
     padding: 20px;
 }
-.production>.card-group>.card>.card-body{
+
+.production>.card-group>.card>.card-body {
     margin-right: 1px;
-     text-align: center;
+    text-align: center;
 }
-.production>.card-group>.card>.card-body>.btn{
-    border-width: 1px;
-    width: 174px;
+
+.production>.card-group>.card>.card-body>.btn {
+    border-width: 2px;
 
 }
-.production>.card-group>.card{
+
+.production>.card-group>.card {
     margin-bottom: 40px;
 
-align-items: center;
-padding: 20px;
-background-color: black;
-color: #fff;
-/* width: 240px !important; */
-width: 240px;
-height: 214px;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    /* width: 240px !important; */
+    width: 240px;
+    height: 214px;
 }
+
 span.logo-text-hold {
     font-family: 'futurak';
     font-style: normal;
@@ -76,7 +86,8 @@ span.logo-text-hold {
     color: #FFFFFF;
 
 }
-.h1{
+
+.h1 {
     font-family: 'Apercu' !important;
     font-style: normal;
     font-weight: 400;
@@ -86,21 +97,24 @@ span.logo-text-hold {
     color: #FFFFFF;
     margin-bottom: 8px;
 }
-.main_heading{
+
+.main_heading {
     align-items: center;
 }
 
-.Franchise{
+.Franchise {
     text-align: center;
     background-color: #0f0f0f;
     color: #fff;
     padding-top: 50px;
     padding-bottom: 20px;
 }
-.Franchise>.row>.col{
+
+.Franchise>.row>.col {
     margin-bottom: 20px !important;
 }
-.row{
+
+.row {
     width: fit-content;
     color: #fff !important;
     text-align: center;
@@ -111,7 +125,8 @@ span.logo-text-hold {
     align-items: baseline;
     margin-bottom: 5px;
 }
-.btn-holds{
+
+.btn-holds {
     border-color: #fff !important;
     height: 50px;
     width: 120px;
@@ -124,117 +139,128 @@ span.logo-text-hold {
     width: 174px;
 
 }
-.second{
+
+.second {
     direction: rtl;
 }
-.Franchise>.row>.col-lg-6{
+
+.Franchise>.row>.col-lg-6 {
     margin: auto;
 }
-.Express{
+
+.Express {
     background-color: black;
-    /* text-align: center !important; */
-    justify-items: center;
     justify-content: center;
-    text-align: -webkit-center;
+    text-align: center;
     padding-top: 50px;
-padding-bottom: 40px;
+    padding-bottom: 40px;
 }
-.Express>.card-Express>.row{
+
+.Express>.card-Express>.row {
     text-align: center !important;
     justify-content: center;
     padding-top: 20px;
-    margin-left: 20px;
 }
-.hading{
+
+.hading {
     color: #fff;
 }
-.Express>.card-Express>.row>.col>.card{
+
+.Express>.card-Express>.row>.col>.card {
     background-color: black;
     color: #fff;
-    width: 330px;
-    
 }
-.Express>.card-Express>.row>.col{
-text-align: center !important;
-justify-content: center !important;
+
+.Express>.card-Express>.row>.col {
+    text-align: center !important;
+    justify-content: center !important;
 }
-.Village{
+
+.Village {
     background-color: #0f0f0f;
     color: #fff;
     text-align: center;
 }
-.Village>.container{
+
+.Village>.container {
     text-align: center;
 }
-.Village>.row{
+
+.Village>.row {
     align-items: center;
     direction: rtl;
     display: flex;
-    margin-bottom: 0px; 
+    margin-bottom: 0px;
     padding-bottom: 20px;
 }
 
-.opening_Soon{
+.opening_Soon {
     text-align: center;
     color: #fff;
     background-color: black;
     padding-top: 40px;
 }
-.opening_Soon>.hading{
+
+.opening_Soon>.hading {
     margin-top: 20px;
 }
-.opening_Soon>.card-opening_Soon>.row{
+
+.opening_Soon>.card-opening_Soon>.row {
     justify-content: center;
     margin-bottom: 0%;
     margin-top: 20px;
     padding-bottom: 20px;
     margin-left: 2px;
 }
-.opening_Soon>.card-opening_Soon>.row>.col>.card>.image{
+
+.opening_Soon>.card-opening_Soon>.row>.col>.card>.image {
     width: 56px !important;
     height: 56px !important;
 }
-.opening_Soon>.card-opening_Soon>.row>.col>.card{
-align-items: center !important;
-padding: 20px;
-width: 400px;
-height: 330px;
+
+.opening_Soon>.card-opening_Soon>.row>.col>.card {
+    align-items: center !important;
+    padding: 20px;
 }
-.Social-Feed{
+
+.Social-Feed {
     padding-top: 30px;
-   text-align: center;
-   background-color: black;
-   color: white;
+    text-align: center;
+    background-color: black;
+    color: white;
 
 }
-.Social-Feed>h1{
+
+.Social-Feed>h1 {
     margin: 0px !important;
 }
-.Social-Feed>.foodPic{
+
+.Social-Feed>.foodPic {
     padding-top: 40px;
-    display:flex;
+    display: flex;
     justify-content: center;
     padding-bottom: 40px;
+    margin-bottom: auto;
 }
-.Social-Feed>.foodPic>.rounded{
-    width: 230px;  
-    margin: 10px; 
-    position: relative; 
+.Social-Feed>.foodPic>.col>img{
+    border-radius: 10px;
 }
-.footer{
+.footer {
     padding-top: 30px;
     background-color: #0f0f0f;
     color: #fff;
     text-align: center;
     padding-bottom: 20px;
 }
-.footer>.row>.col>.About{
+
+.footer>.row>.col>.About {
     width: 100%;
-text-align: left;
-margin-left: 20px;
-color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    margin-left: 20px;
+    color: rgba(255, 255, 255, 0.7);
 }
-.footer>.row>.col>h3{
+
+.footer>.row>.col>h3 {
     margin-bottom: 0px !important;
     font-family: 'Butler';
     font-style: normal;
@@ -243,17 +269,19 @@ color: rgba(255, 255, 255, 0.7);
     line-height: 19px;
     color: #FFFFFF;
 }
-.footer>.row>.col>ul{
+
+.footer>.row>.col>ul {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 0px !important;
     margin: 0px !important
 }
-.footer>.row>.col>ul>il{
+
+.footer>.row>.col>ul>il {
     list-style: none;
     display: flex;
-margin-top: 10px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     gap: 0px 5px;
@@ -262,7 +290,8 @@ margin-top: 10px;
     text-decoration: none;
 
 }
-.footer>.row>.col>ul>il>a{
+
+.footer>.row>.col>ul>il>a {
     font-family: 'Apercu';
     font-style: normal;
     font-weight: 400;
@@ -273,18 +302,52 @@ margin-top: 10px;
     text-decoration: none;
     display: flex;
 }
-.footer>.row>.col>.row{
+
+.footer>.row>.col>.row {
     vertical-align: middle;
     margin-top: 30px;
     /* text-align: center; */
     justify-content: center;
 }
-.footer>.row>.col>.row>img{
+
+.footer>.row>.col>.row>img {
     width: 150px;
 }
-.copyright{
+
+.copyright {
     background-color: #0f0f0f;
     color: #fff;
     margin: 0px;
     display: flex;
+}
+.Express>.card-Express>.row>.col>.card{
+    margin: 15px !important;
+}
+@media screen and (max-width:300px) {
+    .navbar>.container-fluid {
+        display: grid !important;
+        justify-content: center !important;
+    }
+
+}
+@media screen and (max-width:290px){
+    .navbar>.container-fluid>.navbar-collapse>ul>button{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:800px) {
+    .production>.card-group{
+        display: inline-grid;
+    }
+}
+@media screen and (max-width:400px){
+    .Social-Feed>.foodPic{
+        /* width: 100% !important; */
+        display: contents;
+    }
+    
+
+}
+.Social-Feed>.foodPic>.col{
+    margin-top: 10px;
 }

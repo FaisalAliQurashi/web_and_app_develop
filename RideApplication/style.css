@@ -107,9 +107,11 @@ body>.navbar {
     width: 80% !important;
     margin-left: 15px;
 }
-.workagain{
+
+.workagain {
     display: none;
 }
+
 .container.benefits {
     text-align: center;
     padding-top: 30px;
@@ -159,63 +161,91 @@ body>.navbar {
     margin-left: 20px;
 
 }
-.workagain>.row>.col.right{
+
+.workagain>.row>.col.right {
     width: 70%;
     text-align: center;
     display: inline-block;
 }
-.workagain>.row>.col>.one{
+
+.workagain>.row>.col>.one {
     width: 80% !important;
-    
+
 }
-.workagain>.row>.col>.two{
+
+.workagain>.row>.col>.two {
     margin-left: 45px;
     width: 80% !important;
 
 }
-.workagain>.row>.col{
+
+.workagain>.row>.col {
     display: -webkit-inline-box;
 }
+
 @media only screen and (max-width: 600px) {
-    .row.first{
+    .row.first {
         display: block;
     }
-    .navsec{
+
+    .row.first>.col.first {
+        padding: 2px;
+        padding-bottom: 20px;
+    }
+    .row.first>.col.first>p{
+        padding: 15px;
+    }
+    .navsec {
         text-align: center;
         display: block;
     }
-    .navbar-brand>p{
+
+
+    .navbar-brand>p {
         font-size: initial;
     }
-    .navbar>.container-fluid{
-        display: block;
+
+    @media only screen and (max-width: 400px) {
+        .navbar>.container-fluid {
+            justify-content: center;
+        }
+        .navbar>.container-fluid>button{
+            width: 200px;
+        }
     }
-    #navbarSupportedContent{
+
+
+    #navbarSupportedContent {
         display: grid !important;
 
     }
-    
-    .navbar>.container-fluid>.collapse>form{
+
+    .navbar>.container-fluid>.collapse>form {
         display: table-caption !important;
         text-align: center;
         margin-bottom: 10px;
-       
+
     }
-    .navbar>.container-fluid>.collapse>form>input{
+
+    .navbar>.container-fluid>.collapse>form>input {
         margin-bottom: 10px;
     }
-    .work{
+
+    .work {
         display: none;
 
     }
-    .workagain{
-        display:block;
-    }
-    .workagain>.row{
+
+    .workagain {
         display: block;
     }
-    .last>.row{
+
+    .workagain>.row {
+        display: block;
+    }
+
+    .last>.row {
         display: inline;
     }
 
-  }
+}
