@@ -1,0 +1,26 @@
+.row.top{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.container>.row{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.container>.row>.btn{
+    width: 98%;
+}
+.swal2-actions{
+    width: 90%;
+}
+.swal2-actions>button.swal2-confirm.swal2-styled{
+    width: 98% !important;
+    background-color: #0b5ed7 !important;
+}
+
+@media screen and (max-width:400px) {
+    .container>.row{
+        display: block;
+    }
+}
