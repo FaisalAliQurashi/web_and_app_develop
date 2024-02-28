@@ -1,0 +1,42 @@
+.navbar{
+    background-color: yellow !important;
+}
+.black{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: black;
+}
+.white{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.red{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: red;
+}
+.silver{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: silver;
+    border: 2px solid black;
+}
+.blue{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: blue;
+}
+.skyblue{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: skyblue;
+}
