@@ -1,0 +1,81 @@
+.text-area {
+    border: none;
+    resize: none;
+
+    &:focus {
+        outline: none;
+    }
+
+    overflow: hidden;
+    font-size: 22px;
+    letter-spacing: -.7px;
+    color: #b09baa;
+    width: 100%;
+    // padding: 10px 0;
+    border: none;
+    min-height: 221px;
+}
+
+.DropZone {
+    width: auto;
+    border: 2px dashed #b0aaa4;
+    display: flex !important;
+    align-items: center;
+    text-align: center !important;
+    color: #b0aaa4;
+    justify-content: center !important;
+
+    div {
+        span {
+            color: #0000fe;
+            font-size: large;
+        }
+
+        p {
+            span {
+                color: #0000fe;
+            }
+        }
+    }
+}
+
+.fileList {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    div {
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100px;
+        cursor: pointer;
+        text-align: center;
+
+        .svg {
+            color: #0000fe;
+            width: 100px;
+            height: 80px;
+            // margin-bottom: 5px;
+            // padding-bottom: 10px;
+            padding: 20px;
+
+
+        }
+
+        &:hover {
+            background-color: #f4f4f4;
+        }
+    }
+
+
+}
+
+.files-header{
+    div{
+        cursor: pointer;
+    }
+}

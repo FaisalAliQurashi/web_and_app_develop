@@ -1,0 +1,155 @@
+body {
+    background-color: #f4f4f4;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.logo {
+    img {
+        width: 100px;
+        cursor: pointer;
+
+        &:active {
+            opacity: 0.2;
+        }
+    }
+}
+
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.manu {
+    ul {
+        display: flex;
+        gap: 20px;
+
+        li {
+            list-style: none;
+            color: #4a4a4a;
+            font-size: 14px;
+
+
+        }
+
+        .main-btn {
+            color: blue;
+        }
+    }
+}
+
+$icon-color: #765cff;
+$unactiv-icon: #878787;
+
+.main-card {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: max-content;
+    box-shadow: 0 21px 33px 0 rgba(0, 0, 0, .1);
+    margin-top: 30px;
+
+    .side-bar {
+        background-color: #f4f4f4;
+        padding: 30px;
+
+        div {
+            height: 50px;
+            margin-bottom: 20px;
+            color: $icon-color;
+            cursor: pointer;
+
+
+        }
+    }
+}
+
+.card-container {
+    width: inherit;
+
+    div {
+        padding: 15px;
+
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: .85;
+            letter-spacing: .6px;
+            color: #000;
+            margin-bottom: 28px;
+        }
+    }
+}
+
+.tex-butten {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+    font-size: 100%;
+    direction: rtl;
+    display: flex;
+}
+
+.text-butten {
+    width: 200px;
+    height: 50px;
+    opacity: .21;
+    font-size: 24px;
+    border-radius: 2px;
+    color: #000;
+    border: 2px solid #000;
+    cursor: pointer;
+
+    &:disabled {
+        cursor: default;
+
+    }
+
+
+}
+.text-clear{
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    color: #000;
+    background-color: white;
+    cursor: pointer;
+    &:disabled {
+        cursor: none;
+        display: none;
+
+    }
+}
+.file-section{
+    height: 100%;
+    .files-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div{
+            display: block;
+            svg{
+                font-size: 20px;
+            }
+        }
+        .download{
+            color: #638eff;
+        }
+        .delete{
+        color: #963a45;
+        }
+    }
+
+}

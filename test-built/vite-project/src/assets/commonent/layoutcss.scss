@@ -1,0 +1,106 @@
+
+.side-bar{
+    background-color: #15066d;
+    display: table-row-group;
+    color: white;
+div{
+    height: 50px;
+    // display: flex;
+   text-align: center;
+   svg{
+    width: 30px;
+   }
+
+    &:hover{
+        background-color: #fda63b;
+        cursor: pointer;
+    }
+}
+    .logo{
+        width: 250px;
+        height: 80px;
+    }
+}
+.header{
+    width: 100%;
+    .first{
+        display: flex;
+        justify-content: end;
+        margin-bottom: 50px;
+    }
+    .second{
+        div.secondd{
+            display: table-cell;
+            text-align: center;
+            div{
+                div{
+                    div{
+                        div{
+                            .ant-card-body{
+                                padding: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    display: block;
+    margin: 20px;
+    gap: 20px;
+    height: 100%;
+    
+        .icon{
+            svg{
+                width: 50px;
+                height: 30px;
+            }
+        }
+    
+
+}
+.df{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div{
+svg{
+    width: 30px;
+    height: 30px;
+    color: #15066d;
+    background-color: #feefe9;
+    padding: 10px;
+}
+    }
+}
+.ant-card-body{
+    width: 200px;
+    height: 91px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+
+}
+
+.ant-card{
+    width: 200px;
+
+}
+.seconff{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    .colf{
+        width: 100% !important;
+        position: unset;
+    }
+    .cols{
+        padding: 5px;
+        text-align: center;
+        div{
+            .ant-card-body{
+                display: contents;
+            }
+            padding: 30px
+        }
+    }
+}
